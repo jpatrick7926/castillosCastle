@@ -1,0 +1,184 @@
+doctype html
+html
+  head
+    title
+      | Castillos's Castle
+    link(rel='stylesheet' href='./stylesheet.min.css')
+    link(rel="preconnect" href="https://fonts.gstatic.com")
+    link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Bitter&family=Teko&display=swap" rel="stylesheet")
+  body
+    div(id="page-wrapper")
+      div(id="page-container")
+        header(id="main-header")
+          nav.navbar
+              ul
+                  li.nav-child
+                      h1
+                        | Joshua Castillo
+                  li.nav-child
+                      div.burger
+                          div.line1
+                          div.line2
+                          div.line3
+        div(id="main-content")
+          section.w100(id="name-container")
+            div(id="name")
+              h1.first-name
+                | JOSHUA
+              h1.last-name
+                | CASTILLO
+              div(id="mini-description")
+                h3
+                  | Front End Web Developer
+              div(id="social-icons")
+                ul
+                  li
+                    a(href='https://www.linkedin.com/in/joshua-castillo-04984316a/')
+                      svg(xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24")
+                        path(d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z")
+                  li
+                    a(href='https://github.com/jpatrick7926')
+                      svg(xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24")
+                        path(d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z")
+            div(id="arrow-container")
+              div.arrow
+          section.w100(id="about-section")
+            div(id="about-container")
+              div.subheader
+                h2 I'm Josh. It's nice to meet you.
+              p.about-me-text
+                | I am a developer, but forever a student to software engineering. I am a quick study and do well in fast-paced environments. As someone who enjoys problem solving, I try to bring confidence at transforming eye catching designs to life through code.
+          section.w100(id="experience-section")
+            div.w80.vh100.flex(id="experience-container")
+              div.subheader
+                h2 WORK EXPERIENCE
+              div.w100
+                div.experience-entry
+                  div.entry-name
+                    h3 TAILORED BRANDS INC.
+                    div.entry-position.colorb
+                      h4 Front-End Web Developer (Email Specialist)
+                  div.entry-date.colortan
+                    p February 2020 - Present
+                div.experience-entry
+                  div.entry-name
+                    h3 J-COMM (Project)
+                    div.entry-position.colorb
+                      h4 Front-End Web Developer
+                  div.entry-date.colortan
+                    p April 2021 - May 2021
+                div.experience-entry
+                  div.entry-name
+                    h3 Charcuterie (Project)
+                    div.entry-position.colorb
+                      h4 Front-End Web Developer
+                  div.entry-date.colortan
+                    p Jan 2021 - March -2021
+          section.w100(id="projects-section")
+            div.w80.vh100.flex(id="projects-container")
+              div.subheader.colorwhite
+                h2 MY RECENT PROJECTS
+              div.flex.w100(id="project-entries-container")
+                div.project-entry
+                  img(src="./images/charcuterie.png")
+                div.project-entry
+                  img(src="./images/charcuterie.png")
+                div.project-entry
+                  img(src="./images/charcuterie.png")
+                div.project-entry
+                  img(src="./images/charcuterie.png")
+                div.project-entry
+                  img(src="./images/charcuterie.png")
+          section.w100(id="skills-section")
+            div.w80.vh100.flex(id="skills-container")
+              div.w100
+                div.subheader
+                  h2 TECHNICAL &#38; CREATIVE SKILLS
+                div.flex.w100.mb100(id="skills")
+                  div.skills-entry
+                    img(src="./images/282802_javascript_js_icon.svg")
+                  div.skills-entry
+                    img(src="./images/104494_html5_html_icon.svg")
+                  div.skills-entry
+                    img(src="./images/317756_badge_css_css3_achievement_award_icon.svg")
+                  div.skills-entry
+                    img(src="./images/1608905_git_square_icon.svg")
+                  div.skills-entry
+                    img(src="./images/4375465_logo_sass_icon.svg")
+                  div.skills-entry
+                    img(src="./images/4691255_gulp_icon.svg")
+                  div.skills-entry
+                    img(src="./images/4691292_react native_react_icon.svg")
+                  div.skills-entry
+                    img(src="./images/2993662_app_brand_brands_logo_logos_icon.svg")
+                  div.skills-entry
+                    img(src="./images/2993708_adobe_brand_brands_illustrator_logo_icon.svg")
+                  div.skills-entry
+                    img(src="./images/4373282_adobe_logo_logos_photoshop_icon.svg")
+                div.subheader.interests
+                  h2 NON TECHNICAL
+                div.w100.interests-text
+                  p Business aside I've got tons of hobbies! If I'm outdoors you can find me at the nearest basketball hoop, or fishing out of my kayak at the nearest body of water. Otherwise I'll be out trying to discover a new 'hole in the wall' restaurant or food truck. Disneyland has taken more money from me than I'm willing to admit, and food takes the rest of it. 
+                  p If indoors I'm either gaming, playing piano, binging Netflix, or cooking. Recently I've picked up video editing so that'll take up the rest of my free time. And after all that, if you still can't find me, then I am most likely spending time with friends and family!
+          section.w100(id="testimonials-section")
+            div.w80.vh100.flex(id="testimonials-container")
+              div.w100.text-center
+                div.subheader
+                  h2 TESTIMONIALS
+              div.w100(id="carousel-container")
+                div.w80(id="carousel")
+                  button.carousel-button.carousel-button-left
+                    div.left-arrow
+                  div.carousel-track-container
+                    div.carousel-track
+                      div.carousel-item.w100.text-center.flex.current-slide
+                        p.testimonial-text
+                          | "Josh is a multifaceted professional. In the workplace, he demonstrates excellent integrity and devotion to his duties. Similarly, he recognizes the importance of connections in every project he undertakes. Essentially, he is quite versed in his field of specialization; he never stops learning new things that will help him improve his talents. His work ethic and attitude, particularly his attention to detail, are indeed admirable. I’d say he's one of a kind and one of the few people I know that I can rely on in this line of work."
+                        p.testimonial-name
+                          strong - Juan Marin
+                          br
+                          span.testimonial-relation
+                            | Programming Partner for J-COMM / Charcuterie Restaurant
+                      div.carousel-item.w100.text-center.flex
+                        p.testimonial-text
+                          | "Joshua is incredibly proactive, open-minded, and quick on his feet. He excels at communication and loves working with people. He also shows great responsibility to his task and team."
+                        p.testimonial-name
+                          strong - Dang Le
+                          br
+                          span.testimonial-relation
+                            | Mentor at Code to the Future
+                      div.carousel-item.w100.text-center.flex.current-slide
+                        p.testimonial-text
+                          | 
+                        p.testimonial-name
+                          strong - Kris Vinas
+                          br
+                          span.testimonial-relation
+                            | Email Marketing Manager at Tailored Brands
+                      div.carousel-item.w100.text-center.flex
+                        p.testimonial-text
+                          | 
+                        p.testimonial-name
+                          | - Juan Marin
+                  button.carousel-button.carousel-button-right
+                    div.right-arrow
+                      
+                    
+            
+
+
+
+
+
+
+
+
+
+
+
+
+    script(src="./js/carousel.js")
+//
