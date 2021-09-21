@@ -207,7 +207,7 @@ $dark-color: #5D5C61;
 // START PROJECTS STYLES
 
 #projects-section {
-  background-color: $blue-color;
+  background-color: $dark-color;
 }
 
 #projects-container {
@@ -224,10 +224,39 @@ $dark-color: #5D5C61;
   min-width: 350px;
   max-width: 350px;
   margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
 }
 
 .project-entry img {
   width: 100%;
+  border-radius: 5%;
+}
+
+.project-name {
+  font-size: 28px;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.project-description {
+  font-size: 16px;
+  margin-bottom: 3%;
+}
+
+.project-cta {
+  font-size: 15px;
+  margin-bottom: 3%;
+}
+
+.project-cta a {
+  color: white;
+}
+
+.project-cta a:hover {
+  color: $blue-color;
 }
 
 // START SKILLS STYLES
@@ -345,7 +374,8 @@ $dark-color: #5D5C61;
   max-height: 75vh;
   flex-direction: column;
   justify-content: center;
-  font-family: 'Bitter', serif;  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+  box-sizing: border-box;
   padding: 4%;
   line-height: 1.5;
 }
